@@ -1,0 +1,14 @@
+.venv/
+__pycache__/
+.pytest_cache/
+.ruff_cache/
+*.py[cod]
+
+# Temporary files created by atomic Parquet writes.
+*.tmp
+
+# Observable Framework build and local preview artifacts.
+site/node_modules/
+site/dist/
+site/src/.observablehq/
+site/dashboard-*.png

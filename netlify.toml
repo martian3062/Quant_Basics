@@ -1,0 +1,18 @@
+[build]
+  base = "project-1-nse-data-lake/site"
+  command = "npm ci && npm run build"
+  publish = "dist"
+
+[build.environment]
+  NODE_VERSION = "22"
+
+[[headers]]
+  for = "/_file/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/*.parquet"
+  [headers.values]
+    Content-Type = "application/vnd.apache.parquet"
+    Cache-Control = "public, max-age=3600"

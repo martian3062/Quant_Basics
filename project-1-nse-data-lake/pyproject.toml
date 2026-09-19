@@ -1,0 +1,38 @@
+[build-system]
+requires = ["uv_build>=0.12.17,<0.13.0"]
+build-backend = "uv_build"
+
+[project]
+name = "nse-lake"
+version = "0.1.0"
+description = "A reproducible NSE daily-price lake with explicit data-quality audits."
+readme = "README.md"
+requires-python = ">=3.12,<3.15"
+dependencies = [
+  "duckdb>=1.4.0,<2",
+  "polars[rtcompat]>=1.32,<2",
+  "pyarrow>=21,<24",
+  "yfinance>=0.2.65,<2",
+]
+
+[project.scripts]
+nse-lake-ingest = "nse_lake.ingest:main"
+nse-lake-audit = "nse_lake.audit.runner:main"
+nse-lake-site-data = "nse_lake.site_data:main"
+
+[dependency-groups]
+dev = [
+  "pytest>=8.4,<10",
+  "ruff>=0.12,<1",
+]
+
+[tool.pytest.ini_options]
+addopts = "-q"
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py312"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B"]

@@ -1,0 +1,1724 @@
+{
+  "meta": {
+    "is_demo": true,
+    "generated_at": "2026-09-19T10:15:09.561007Z",
+    "period_start": "2015-01-01",
+    "period_end": "2026-08-31",
+    "source_note": "Illustrative frontend dataset; replace after the full lake refresh."
+  },
+  "hero": {
+    "bias_percentage_points": 4.0,
+    "biased_cagr": 15.2,
+    "honest_cagr": 11.2
+  },
+  "kpis": {
+    "symbols_audited": 50,
+    "trading_days": 2862,
+    "flags": 12,
+    "critical_flags": 5
+  },
+  "survivorship": [
+    {
+      "date": "2015-01-01",
+      "series": "Today's constituents",
+      "index": 100.0
+    },
+    {
+      "date": "2015-01-01",
+      "series": "Point-in-time",
+      "index": 100.0
+    },
+    {
+      "date": "2015-02-01",
+      "series": "Today's constituents",
+      "index": 102.46
+    },
+    {
+      "date": "2015-02-01",
+      "series": "Point-in-time",
+      "index": 101.99
+    },
+    {
+      "date": "2015-03-01",
+      "series": "Today's constituents",
+      "index": 105.33
+    },
+    {
+      "date": "2015-03-01",
+      "series": "Point-in-time",
+      "index": 104.31
+    },
+    {
+      "date": "2015-04-01",
+      "series": "Today's constituents",
+      "index": 108.07
+    },
+    {
+      "date": "2015-04-01",
+      "series": "Point-in-time",
+      "index": 106.51
+    },
+    {
+      "date": "2015-05-01",
+      "series": "Today's constituents",
+      "index": 110.14
+    },
+    {
+      "date": "2015-05-01",
+      "series": "Point-in-time",
+      "index": 108.13
+    },
+    {
+      "date": "2015-06-01",
+      "series": "Today's constituents",
+      "index": 111.32
+    },
+    {
+      "date": "2015-06-01",
+      "series": "Point-in-time",
+      "index": 108.98
+    },
+    {
+      "date": "2015-07-01",
+      "series": "Today's constituents",
+      "index": 111.78
+    },
+    {
+      "date": "2015-07-01",
+      "series": "Point-in-time",
+      "index": 109.23
+    },
+    {
+      "date": "2015-08-01",
+      "series": "Today's constituents",
+      "index": 112.05
+    },
+    {
+      "date": "2015-08-01",
+      "series": "Point-in-time",
+      "index": 109.31
+    },
+    {
+      "date": "2015-09-01",
+      "series": "Today's constituents",
+      "index": 112.68
+    },
+    {
+      "date": "2015-09-01",
+      "series": "Point-in-time",
+      "index": 109.7
+    },
+    {
+      "date": "2015-10-01",
+      "series": "Today's constituents",
+      "index": 114.02
+    },
+    {
+      "date": "2015-10-01",
+      "series": "Point-in-time",
+      "index": 110.69
+    },
+    {
+      "date": "2015-11-01",
+      "series": "Today's constituents",
+      "index": 116.03
+    },
+    {
+      "date": "2015-11-01",
+      "series": "Point-in-time",
+      "index": 112.22
+    },
+    {
+      "date": "2015-12-01",
+      "series": "Today's constituents",
+      "index": 118.3
+    },
+    {
+      "date": "2015-12-01",
+      "series": "Point-in-time",
+      "index": 113.97
+    },
+    {
+      "date": "2016-01-01",
+      "series": "Today's constituents",
+      "index": 120.23
+    },
+    {
+      "date": "2016-01-01",
+      "series": "Point-in-time",
+      "index": 115.42
+    },
+    {
+      "date": "2016-02-01",
+      "series": "Today's constituents",
+      "index": 121.31
+    },
+    {
+      "date": "2016-02-01",
+      "series": "Point-in-time",
+      "index": 116.16
+    },
+    {
+      "date": "2016-03-01",
+      "series": "Today's constituents",
+      "index": 121.42
+    },
+    {
+      "date": "2016-03-01",
+      "series": "Point-in-time",
+      "index": 116.1
+    },
+    {
+      "date": "2016-04-01",
+      "series": "Today's constituents",
+      "index": 120.87
+    },
+    {
+      "date": "2016-04-01",
+      "series": "Point-in-time",
+      "index": 115.49
+    },
+    {
+      "date": "2016-05-01",
+      "series": "Today's constituents",
+      "index": 120.3
+    },
+    {
+      "date": "2016-05-01",
+      "series": "Point-in-time",
+      "index": 114.88
+    },
+    {
+      "date": "2016-06-01",
+      "series": "Today's constituents",
+      "index": 120.34
+    },
+    {
+      "date": "2016-06-01",
+      "series": "Point-in-time",
+      "index": 114.77
+    },
+    {
+      "date": "2016-07-01",
+      "series": "Today's constituents",
+      "index": 121.32
+    },
+    {
+      "date": "2016-07-01",
+      "series": "Point-in-time",
+      "index": 115.42
+    },
+    {
+      "date": "2016-08-01",
+      "series": "Today's constituents",
+      "index": 123.14
+    },
+    {
+      "date": "2016-08-01",
+      "series": "Point-in-time",
+      "index": 116.76
+    },
+    {
+      "date": "2016-09-01",
+      "series": "Today's constituents",
+      "index": 125.33
+    },
+    {
+      "date": "2016-09-01",
+      "series": "Point-in-time",
+      "index": 118.4
+    },
+    {
+      "date": "2016-10-01",
+      "series": "Today's constituents",
+      "index": 127.27
+    },
+    {
+      "date": "2016-10-01",
+      "series": "Point-in-time",
+      "index": 119.82
+    },
+    {
+      "date": "2016-11-01",
+      "series": "Today's constituents",
+      "index": 128.48
+    },
+    {
+      "date": "2016-11-01",
+      "series": "Point-in-time",
+      "index": 120.64
+    },
+    {
+      "date": "2016-12-01",
+      "series": "Today's constituents",
+      "index": 128.88
+    },
+    {
+      "date": "2016-12-01",
+      "series": "Point-in-time",
+      "index": 120.81
+    },
+    {
+      "date": "2017-01-01",
+      "series": "Today's constituents",
+      "index": 128.88
+    },
+    {
+      "date": "2017-01-01",
+      "series": "Point-in-time",
+      "index": 120.66
+    },
+    {
+      "date": "2017-02-01",
+      "series": "Today's constituents",
+      "index": 129.14
+    },
+    {
+      "date": "2017-02-01",
+      "series": "Point-in-time",
+      "index": 120.71
+    },
+    {
+      "date": "2017-03-01",
+      "series": "Today's constituents",
+      "index": 130.27
+    },
+    {
+      "date": "2017-03-01",
+      "series": "Point-in-time",
+      "index": 121.46
+    },
+    {
+      "date": "2017-04-01",
+      "series": "Today's constituents",
+      "index": 132.54
+    },
+    {
+      "date": "2017-04-01",
+      "series": "Point-in-time",
+      "index": 123.13
+    },
+    {
+      "date": "2017-05-01",
+      "series": "Today's constituents",
+      "index": 135.78
+    },
+    {
+      "date": "2017-05-01",
+      "series": "Point-in-time",
+      "index": 125.55
+    },
+    {
+      "date": "2017-06-01",
+      "series": "Today's constituents",
+      "index": 139.4
+    },
+    {
+      "date": "2017-06-01",
+      "series": "Point-in-time",
+      "index": 128.28
+    },
+    {
+      "date": "2017-07-01",
+      "series": "Today's constituents",
+      "index": 142.69
+    },
+    {
+      "date": "2017-07-01",
+      "series": "Point-in-time",
+      "index": 130.71
+    },
+    {
+      "date": "2017-08-01",
+      "series": "Today's constituents",
+      "index": 145.1
+    },
+    {
+      "date": "2017-08-01",
+      "series": "Point-in-time",
+      "index": 132.44
+    },
+    {
+      "date": "2017-09-01",
+      "series": "Today's constituents",
+      "index": 146.57
+    },
+    {
+      "date": "2017-09-01",
+      "series": "Point-in-time",
+      "index": 133.43
+    },
+    {
+      "date": "2017-10-01",
+      "series": "Today's constituents",
+      "index": 147.55
+    },
+    {
+      "date": "2017-10-01",
+      "series": "Point-in-time",
+      "index": 134.02
+    },
+    {
+      "date": "2017-11-01",
+      "series": "Today's constituents",
+      "index": 148.77
+    },
+    {
+      "date": "2017-11-01",
+      "series": "Point-in-time",
+      "index": 134.8
+    },
+    {
+      "date": "2017-12-01",
+      "series": "Today's constituents",
+      "index": 150.87
+    },
+    {
+      "date": "2017-12-01",
+      "series": "Point-in-time",
+      "index": 136.26
+    },
+    {
+      "date": "2018-01-01",
+      "series": "Today's constituents",
+      "index": 154.07
+    },
+    {
+      "date": "2018-01-01",
+      "series": "Point-in-time",
+      "index": 138.57
+    },
+    {
+      "date": "2018-02-01",
+      "series": "Today's constituents",
+      "index": 158.07
+    },
+    {
+      "date": "2018-02-01",
+      "series": "Point-in-time",
+      "index": 141.48
+    },
+    {
+      "date": "2018-03-01",
+      "series": "Today's constituents",
+      "index": 162.13
+    },
+    {
+      "date": "2018-03-01",
+      "series": "Point-in-time",
+      "index": 144.43
+    },
+    {
+      "date": "2018-04-01",
+      "series": "Today's constituents",
+      "index": 165.41
+    },
+    {
+      "date": "2018-04-01",
+      "series": "Point-in-time",
+      "index": 146.75
+    },
+    {
+      "date": "2018-05-01",
+      "series": "Today's constituents",
+      "index": 167.34
+    },
+    {
+      "date": "2018-05-01",
+      "series": "Point-in-time",
+      "index": 148.04
+    },
+    {
+      "date": "2018-06-01",
+      "series": "Today's constituents",
+      "index": 167.98
+    },
+    {
+      "date": "2018-06-01",
+      "series": "Point-in-time",
+      "index": 148.33
+    },
+    {
+      "date": "2018-07-01",
+      "series": "Today's constituents",
+      "index": 167.94
+    },
+    {
+      "date": "2018-07-01",
+      "series": "Point-in-time",
+      "index": 148.12
+    },
+    {
+      "date": "2018-08-01",
+      "series": "Today's constituents",
+      "index": 168.14
+    },
+    {
+      "date": "2018-08-01",
+      "series": "Point-in-time",
+      "index": 148.08
+    },
+    {
+      "date": "2018-09-01",
+      "series": "Today's constituents",
+      "index": 169.28
+    },
+    {
+      "date": "2018-09-01",
+      "series": "Point-in-time",
+      "index": 148.74
+    },
+    {
+      "date": "2018-10-01",
+      "series": "Today's constituents",
+      "index": 171.53
+    },
+    {
+      "date": "2018-10-01",
+      "series": "Point-in-time",
+      "index": 150.26
+    },
+    {
+      "date": "2018-11-01",
+      "series": "Today's constituents",
+      "index": 174.51
+    },
+    {
+      "date": "2018-11-01",
+      "series": "Point-in-time",
+      "index": 152.3
+    },
+    {
+      "date": "2018-12-01",
+      "series": "Today's constituents",
+      "index": 177.38
+    },
+    {
+      "date": "2018-12-01",
+      "series": "Point-in-time",
+      "index": 154.27
+    },
+    {
+      "date": "2019-01-01",
+      "series": "Today's constituents",
+      "index": 179.32
+    },
+    {
+      "date": "2019-01-01",
+      "series": "Point-in-time",
+      "index": 155.51
+    },
+    {
+      "date": "2019-02-01",
+      "series": "Today's constituents",
+      "index": 179.87
+    },
+    {
+      "date": "2019-02-01",
+      "series": "Point-in-time",
+      "index": 155.72
+    },
+    {
+      "date": "2019-03-01",
+      "series": "Today's constituents",
+      "index": 179.27
+    },
+    {
+      "date": "2019-03-01",
+      "series": "Point-in-time",
+      "index": 155.08
+    },
+    {
+      "date": "2019-04-01",
+      "series": "Today's constituents",
+      "index": 178.34
+    },
+    {
+      "date": "2019-04-01",
+      "series": "Point-in-time",
+      "index": 154.19
+    },
+    {
+      "date": "2019-05-01",
+      "series": "Today's constituents",
+      "index": 178.07
+    },
+    {
+      "date": "2019-05-01",
+      "series": "Point-in-time",
+      "index": 153.78
+    },
+    {
+      "date": "2019-06-01",
+      "series": "Today's constituents",
+      "index": 179.14
+    },
+    {
+      "date": "2019-06-01",
+      "series": "Point-in-time",
+      "index": 154.38
+    },
+    {
+      "date": "2019-07-01",
+      "series": "Today's constituents",
+      "index": 181.67
+    },
+    {
+      "date": "2019-07-01",
+      "series": "Point-in-time",
+      "index": 156.06
+    },
+    {
+      "date": "2019-08-01",
+      "series": "Today's constituents",
+      "index": 185.15
+    },
+    {
+      "date": "2019-08-01",
+      "series": "Point-in-time",
+      "index": 158.43
+    },
+    {
+      "date": "2019-09-01",
+      "series": "Today's constituents",
+      "index": 188.7
+    },
+    {
+      "date": "2019-09-01",
+      "series": "Point-in-time",
+      "index": 160.84
+    },
+    {
+      "date": "2019-10-01",
+      "series": "Today's constituents",
+      "index": 191.45
+    },
+    {
+      "date": "2019-10-01",
+      "series": "Point-in-time",
+      "index": 162.65
+    },
+    {
+      "date": "2019-11-01",
+      "series": "Today's constituents",
+      "index": 192.99
+    },
+    {
+      "date": "2019-11-01",
+      "series": "Point-in-time",
+      "index": 163.56
+    },
+    {
+      "date": "2019-12-01",
+      "series": "Today's constituents",
+      "index": 193.63
+    },
+    {
+      "date": "2019-12-01",
+      "series": "Point-in-time",
+      "index": 163.82
+    },
+    {
+      "date": "2020-01-01",
+      "series": "Today's constituents",
+      "index": 194.24
+    },
+    {
+      "date": "2020-01-01",
+      "series": "Point-in-time",
+      "index": 164.05
+    },
+    {
+      "date": "2020-02-01",
+      "series": "Today's constituents",
+      "index": 195.81
+    },
+    {
+      "date": "2020-02-01",
+      "series": "Point-in-time",
+      "index": 164.97
+    },
+    {
+      "date": "2020-03-01",
+      "series": "Today's constituents",
+      "index": 198.98
+    },
+    {
+      "date": "2020-03-01",
+      "series": "Point-in-time",
+      "index": 167.06
+    },
+    {
+      "date": "2020-04-01",
+      "series": "Today's constituents",
+      "index": 203.76
+    },
+    {
+      "date": "2020-04-01",
+      "series": "Point-in-time",
+      "index": 170.3
+    },
+    {
+      "date": "2020-05-01",
+      "series": "Today's constituents",
+      "index": 209.47
+    },
+    {
+      "date": "2020-05-01",
+      "series": "Point-in-time",
+      "index": 174.18
+    },
+    {
+      "date": "2020-06-01",
+      "series": "Today's constituents",
+      "index": 215.02
+    },
+    {
+      "date": "2020-06-01",
+      "series": "Point-in-time",
+      "index": 177.93
+    },
+    {
+      "date": "2020-07-01",
+      "series": "Today's constituents",
+      "index": 219.42
+    },
+    {
+      "date": "2020-07-01",
+      "series": "Point-in-time",
+      "index": 180.83
+    },
+    {
+      "date": "2020-08-01",
+      "series": "Today's constituents",
+      "index": 222.21
+    },
+    {
+      "date": "2020-08-01",
+      "series": "Point-in-time",
+      "index": 182.57
+    },
+    {
+      "date": "2020-09-01",
+      "series": "Today's constituents",
+      "index": 223.8
+    },
+    {
+      "date": "2020-09-01",
+      "series": "Point-in-time",
+      "index": 183.46
+    },
+    {
+      "date": "2020-10-01",
+      "series": "Today's constituents",
+      "index": 225.18
+    },
+    {
+      "date": "2020-10-01",
+      "series": "Point-in-time",
+      "index": 184.2
+    },
+    {
+      "date": "2020-11-01",
+      "series": "Today's constituents",
+      "index": 227.46
+    },
+    {
+      "date": "2020-11-01",
+      "series": "Point-in-time",
+      "index": 185.56
+    },
+    {
+      "date": "2020-12-01",
+      "series": "Today's constituents",
+      "index": 231.28
+    },
+    {
+      "date": "2020-12-01",
+      "series": "Point-in-time",
+      "index": 188.0
+    },
+    {
+      "date": "2021-01-01",
+      "series": "Today's constituents",
+      "index": 236.48
+    },
+    {
+      "date": "2021-01-01",
+      "series": "Point-in-time",
+      "index": 191.4
+    },
+    {
+      "date": "2021-02-01",
+      "series": "Today's constituents",
+      "index": 242.19
+    },
+    {
+      "date": "2021-02-01",
+      "series": "Point-in-time",
+      "index": 195.13
+    },
+    {
+      "date": "2021-03-01",
+      "series": "Today's constituents",
+      "index": 247.14
+    },
+    {
+      "date": "2021-03-01",
+      "series": "Point-in-time",
+      "index": 198.3
+    },
+    {
+      "date": "2021-04-01",
+      "series": "Today's constituents",
+      "index": 250.26
+    },
+    {
+      "date": "2021-04-01",
+      "series": "Point-in-time",
+      "index": 200.2
+    },
+    {
+      "date": "2021-05-01",
+      "series": "Today's constituents",
+      "index": 251.26
+    },
+    {
+      "date": "2021-05-01",
+      "series": "Point-in-time",
+      "index": 200.63
+    },
+    {
+      "date": "2021-06-01",
+      "series": "Today's constituents",
+      "index": 250.82
+    },
+    {
+      "date": "2021-06-01",
+      "series": "Point-in-time",
+      "index": 200.07
+    },
+    {
+      "date": "2021-07-01",
+      "series": "Today's constituents",
+      "index": 250.23
+    },
+    {
+      "date": "2021-07-01",
+      "series": "Point-in-time",
+      "index": 199.41
+    },
+    {
+      "date": "2021-08-01",
+      "series": "Today's constituents",
+      "index": 250.76
+    },
+    {
+      "date": "2021-08-01",
+      "series": "Point-in-time",
+      "index": 199.51
+    },
+    {
+      "date": "2021-09-01",
+      "series": "Today's constituents",
+      "index": 253.03
+    },
+    {
+      "date": "2021-09-01",
+      "series": "Point-in-time",
+      "index": 200.81
+    },
+    {
+      "date": "2021-10-01",
+      "series": "Today's constituents",
+      "index": 256.8
+    },
+    {
+      "date": "2021-10-01",
+      "series": "Point-in-time",
+      "index": 203.12
+    },
+    {
+      "date": "2021-11-01",
+      "series": "Today's constituents",
+      "index": 261.05
+    },
+    {
+      "date": "2021-11-01",
+      "series": "Point-in-time",
+      "index": 205.75
+    },
+    {
+      "date": "2021-12-01",
+      "series": "Today's constituents",
+      "index": 264.48
+    },
+    {
+      "date": "2021-12-01",
+      "series": "Point-in-time",
+      "index": 207.81
+    },
+    {
+      "date": "2022-01-01",
+      "series": "Today's constituents",
+      "index": 266.15
+    },
+    {
+      "date": "2022-01-01",
+      "series": "Point-in-time",
+      "index": 208.67
+    },
+    {
+      "date": "2022-02-01",
+      "series": "Today's constituents",
+      "index": 265.99
+    },
+    {
+      "date": "2022-02-01",
+      "series": "Point-in-time",
+      "index": 208.3
+    },
+    {
+      "date": "2022-03-01",
+      "series": "Today's constituents",
+      "index": 264.92
+    },
+    {
+      "date": "2022-03-01",
+      "series": "Point-in-time",
+      "index": 207.3
+    },
+    {
+      "date": "2022-04-01",
+      "series": "Today's constituents",
+      "index": 264.35
+    },
+    {
+      "date": "2022-04-01",
+      "series": "Point-in-time",
+      "index": 206.66
+    },
+    {
+      "date": "2022-05-01",
+      "series": "Today's constituents",
+      "index": 265.57
+    },
+    {
+      "date": "2022-05-01",
+      "series": "Point-in-time",
+      "index": 207.21
+    },
+    {
+      "date": "2022-06-01",
+      "series": "Today's constituents",
+      "index": 269.09
+    },
+    {
+      "date": "2022-06-01",
+      "series": "Point-in-time",
+      "index": 209.3
+    },
+    {
+      "date": "2022-07-01",
+      "series": "Today's constituents",
+      "index": 274.51
+    },
+    {
+      "date": "2022-07-01",
+      "series": "Point-in-time",
+      "index": 212.66
+    },
+    {
+      "date": "2022-08-01",
+      "series": "Today's constituents",
+      "index": 280.66
+    },
+    {
+      "date": "2022-08-01",
+      "series": "Point-in-time",
+      "index": 216.48
+    },
+    {
+      "date": "2022-09-01",
+      "series": "Today's constituents",
+      "index": 286.12
+    },
+    {
+      "date": "2022-09-01",
+      "series": "Point-in-time",
+      "index": 219.82
+    },
+    {
+      "date": "2022-10-01",
+      "series": "Today's constituents",
+      "index": 289.91
+    },
+    {
+      "date": "2022-10-01",
+      "series": "Point-in-time",
+      "index": 222.04
+    },
+    {
+      "date": "2022-11-01",
+      "series": "Today's constituents",
+      "index": 292.0
+    },
+    {
+      "date": "2022-11-01",
+      "series": "Point-in-time",
+      "index": 223.14
+    },
+    {
+      "date": "2022-12-01",
+      "series": "Today's constituents",
+      "index": 293.41
+    },
+    {
+      "date": "2022-12-01",
+      "series": "Point-in-time",
+      "index": 223.77
+    },
+    {
+      "date": "2023-01-01",
+      "series": "Today's constituents",
+      "index": 295.61
+    },
+    {
+      "date": "2023-01-01",
+      "series": "Point-in-time",
+      "index": 224.92
+    },
+    {
+      "date": "2023-02-01",
+      "series": "Today's constituents",
+      "index": 299.86
+    },
+    {
+      "date": "2023-02-01",
+      "series": "Point-in-time",
+      "index": 227.42
+    },
+    {
+      "date": "2023-03-01",
+      "series": "Today's constituents",
+      "index": 306.56
+    },
+    {
+      "date": "2023-03-01",
+      "series": "Point-in-time",
+      "index": 231.49
+    },
+    {
+      "date": "2023-04-01",
+      "series": "Today's constituents",
+      "index": 315.05
+    },
+    {
+      "date": "2023-04-01",
+      "series": "Point-in-time",
+      "index": 236.71
+    },
+    {
+      "date": "2023-05-01",
+      "series": "Today's constituents",
+      "index": 323.86
+    },
+    {
+      "date": "2023-05-01",
+      "series": "Point-in-time",
+      "index": 242.1
+    },
+    {
+      "date": "2023-06-01",
+      "series": "Today's constituents",
+      "index": 331.29
+    },
+    {
+      "date": "2023-06-01",
+      "series": "Point-in-time",
+      "index": 246.56
+    },
+    {
+      "date": "2023-07-01",
+      "series": "Today's constituents",
+      "index": 336.25
+    },
+    {
+      "date": "2023-07-01",
+      "series": "Point-in-time",
+      "index": 249.42
+    },
+    {
+      "date": "2023-08-01",
+      "series": "Today's constituents",
+      "index": 338.82
+    },
+    {
+      "date": "2023-08-01",
+      "series": "Point-in-time",
+      "index": 250.73
+    },
+    {
+      "date": "2023-09-01",
+      "series": "Today's constituents",
+      "index": 340.26
+    },
+    {
+      "date": "2023-09-01",
+      "series": "Point-in-time",
+      "index": 251.33
+    },
+    {
+      "date": "2023-10-01",
+      "series": "Today's constituents",
+      "index": 342.31
+    },
+    {
+      "date": "2023-10-01",
+      "series": "Point-in-time",
+      "index": 252.31
+    },
+    {
+      "date": "2023-11-01",
+      "series": "Today's constituents",
+      "index": 346.32
+    },
+    {
+      "date": "2023-11-01",
+      "series": "Point-in-time",
+      "index": 254.52
+    },
+    {
+      "date": "2023-12-01",
+      "series": "Today's constituents",
+      "index": 352.58
+    },
+    {
+      "date": "2023-12-01",
+      "series": "Point-in-time",
+      "index": 258.15
+    },
+    {
+      "date": "2024-01-01",
+      "series": "Today's constituents",
+      "index": 360.16
+    },
+    {
+      "date": "2024-01-01",
+      "series": "Point-in-time",
+      "index": 262.59
+    },
+    {
+      "date": "2024-02-01",
+      "series": "Today's constituents",
+      "index": 367.33
+    },
+    {
+      "date": "2024-02-01",
+      "series": "Point-in-time",
+      "index": 266.75
+    },
+    {
+      "date": "2024-03-01",
+      "series": "Today's constituents",
+      "index": 372.28
+    },
+    {
+      "date": "2024-03-01",
+      "series": "Point-in-time",
+      "index": 269.5
+    },
+    {
+      "date": "2024-04-01",
+      "series": "Today's constituents",
+      "index": 374.11
+    },
+    {
+      "date": "2024-04-01",
+      "series": "Point-in-time",
+      "index": 270.29
+    },
+    {
+      "date": "2024-05-01",
+      "series": "Today's constituents",
+      "index": 373.32
+    },
+    {
+      "date": "2024-05-01",
+      "series": "Point-in-time",
+      "index": 269.45
+    },
+    {
+      "date": "2024-06-01",
+      "series": "Today's constituents",
+      "index": 371.62
+    },
+    {
+      "date": "2024-06-01",
+      "series": "Point-in-time",
+      "index": 268.04
+    },
+    {
+      "date": "2024-07-01",
+      "series": "Today's constituents",
+      "index": 371.05
+    },
+    {
+      "date": "2024-07-01",
+      "series": "Point-in-time",
+      "index": 267.34
+    },
+    {
+      "date": "2024-08-01",
+      "series": "Today's constituents",
+      "index": 373.01
+    },
+    {
+      "date": "2024-08-01",
+      "series": "Point-in-time",
+      "index": 268.21
+    },
+    {
+      "date": "2024-09-01",
+      "series": "Today's constituents",
+      "index": 377.66
+    },
+    {
+      "date": "2024-09-01",
+      "series": "Point-in-time",
+      "index": 270.74
+    },
+    {
+      "date": "2024-10-01",
+      "series": "Today's constituents",
+      "index": 383.91
+    },
+    {
+      "date": "2024-10-01",
+      "series": "Point-in-time",
+      "index": 274.25
+    },
+    {
+      "date": "2024-11-01",
+      "series": "Today's constituents",
+      "index": 389.91
+    },
+    {
+      "date": "2024-11-01",
+      "series": "Point-in-time",
+      "index": 277.58
+    },
+    {
+      "date": "2024-12-01",
+      "series": "Today's constituents",
+      "index": 393.92
+    },
+    {
+      "date": "2024-12-01",
+      "series": "Point-in-time",
+      "index": 279.67
+    },
+    {
+      "date": "2025-01-01",
+      "series": "Today's constituents",
+      "index": 395.25
+    },
+    {
+      "date": "2025-01-01",
+      "series": "Point-in-time",
+      "index": 280.13
+    },
+    {
+      "date": "2025-02-01",
+      "series": "Today's constituents",
+      "index": 394.69
+    },
+    {
+      "date": "2025-02-01",
+      "series": "Point-in-time",
+      "index": 279.42
+    },
+    {
+      "date": "2025-03-01",
+      "series": "Today's constituents",
+      "index": 394.14
+    },
+    {
+      "date": "2025-03-01",
+      "series": "Point-in-time",
+      "index": 278.73
+    },
+    {
+      "date": "2025-04-01",
+      "series": "Today's constituents",
+      "index": 395.68
+    },
+    {
+      "date": "2025-04-01",
+      "series": "Point-in-time",
+      "index": 279.31
+    },
+    {
+      "date": "2025-05-01",
+      "series": "Today's constituents",
+      "index": 400.58
+    },
+    {
+      "date": "2025-05-01",
+      "series": "Point-in-time",
+      "index": 281.92
+    },
+    {
+      "date": "2025-06-01",
+      "series": "Today's constituents",
+      "index": 408.77
+    },
+    {
+      "date": "2025-06-01",
+      "series": "Point-in-time",
+      "index": 286.52
+    },
+    {
+      "date": "2025-07-01",
+      "series": "Today's constituents",
+      "index": 418.89
+    },
+    {
+      "date": "2025-07-01",
+      "series": "Point-in-time",
+      "index": 292.25
+    },
+    {
+      "date": "2025-08-01",
+      "series": "Today's constituents",
+      "index": 428.8
+    },
+    {
+      "date": "2025-08-01",
+      "series": "Point-in-time",
+      "index": 297.82
+    },
+    {
+      "date": "2025-09-01",
+      "series": "Today's constituents",
+      "index": 436.59
+    },
+    {
+      "date": "2025-09-01",
+      "series": "Point-in-time",
+      "index": 302.08
+    },
+    {
+      "date": "2025-10-01",
+      "series": "Today's constituents",
+      "index": 441.53
+    },
+    {
+      "date": "2025-10-01",
+      "series": "Point-in-time",
+      "index": 304.64
+    },
+    {
+      "date": "2025-11-01",
+      "series": "Today's constituents",
+      "index": 444.53
+    },
+    {
+      "date": "2025-11-01",
+      "series": "Point-in-time",
+      "index": 306.02
+    },
+    {
+      "date": "2025-12-01",
+      "series": "Today's constituents",
+      "index": 447.64
+    },
+    {
+      "date": "2025-12-01",
+      "series": "Point-in-time",
+      "index": 307.47
+    },
+    {
+      "date": "2026-01-01",
+      "series": "Today's constituents",
+      "index": 453.02
+    },
+    {
+      "date": "2026-01-01",
+      "series": "Point-in-time",
+      "index": 310.25
+    },
+    {
+      "date": "2026-02-01",
+      "series": "Today's constituents",
+      "index": 461.86
+    },
+    {
+      "date": "2026-02-01",
+      "series": "Point-in-time",
+      "index": 315.05
+    },
+    {
+      "date": "2026-03-01",
+      "series": "Today's constituents",
+      "index": 473.78
+    },
+    {
+      "date": "2026-03-01",
+      "series": "Point-in-time",
+      "index": 321.64
+    },
+    {
+      "date": "2026-04-01",
+      "series": "Today's constituents",
+      "index": 486.94
+    },
+    {
+      "date": "2026-04-01",
+      "series": "Point-in-time",
+      "index": 328.91
+    },
+    {
+      "date": "2026-05-01",
+      "series": "Today's constituents",
+      "index": 498.74
+    },
+    {
+      "date": "2026-05-01",
+      "series": "Point-in-time",
+      "index": 335.34
+    },
+    {
+      "date": "2026-06-01",
+      "series": "Today's constituents",
+      "index": 507.03
+    },
+    {
+      "date": "2026-06-01",
+      "series": "Point-in-time",
+      "index": 339.7
+    },
+    {
+      "date": "2026-07-01",
+      "series": "Today's constituents",
+      "index": 511.21
+    },
+    {
+      "date": "2026-07-01",
+      "series": "Point-in-time",
+      "index": 341.67
+    },
+    {
+      "date": "2026-08-01",
+      "series": "Today's constituents",
+      "index": 512.59
+    },
+    {
+      "date": "2026-08-01",
+      "series": "Point-in-time",
+      "index": 342.02
+    }
+  ],
+  "flags": [
+    {
+      "symbol": "RELIANCE",
+      "date": "2017-09-07",
+      "check_id": "adjustment_gap",
+      "severity": "critical",
+      "detail": "Adjusted/raw ratio moved +100.0%; known 1:1 bonus event."
+    },
+    {
+      "symbol": "TCS",
+      "date": "2018-06-01",
+      "check_id": "adjustment_gap",
+      "severity": "critical",
+      "detail": "Adjusted/raw ratio moved +100.0%; known 1:1 bonus event."
+    },
+    {
+      "symbol": "INFY",
+      "date": "2020-03-23",
+      "check_id": "bad_tick_reversal",
+      "severity": "serious",
+      "detail": "Return was 7.2 sigma and reversed 6.4% next session."
+    },
+    {
+      "symbol": "HDFCBANK",
+      "date": "2024-01-22",
+      "check_id": "missing_session",
+      "severity": "warning",
+      "detail": "No bar on an observed NIFTY 50 trading session."
+    },
+    {
+      "symbol": "ICICIBANK",
+      "date": "2021-02-24",
+      "check_id": "timezone_alignment",
+      "severity": "serious",
+      "detail": "UTC timestamp mapped to the following IST session date."
+    },
+    {
+      "symbol": "SBIN",
+      "date": "2020-03-13",
+      "check_id": "bad_tick_reversal",
+      "severity": "critical",
+      "detail": "Return was 10.8 sigma and reversed 13.9% next session."
+    },
+    {
+      "symbol": "MARUTI",
+      "date": "2022-10-24",
+      "check_id": "missing_session",
+      "severity": "warning",
+      "detail": "Muhurat-session bar absent from the vendor response."
+    },
+    {
+      "symbol": "TATASTEEL",
+      "date": "2022-07-28",
+      "check_id": "adjustment_gap",
+      "severity": "critical",
+      "detail": "Adjusted/raw ratio moved +900.0%; known 10:1 split."
+    },
+    {
+      "symbol": "WIPRO",
+      "date": "2019-03-06",
+      "check_id": "adjustment_gap",
+      "severity": "serious",
+      "detail": "Ratio step aligns with the vendor bonus field."
+    },
+    {
+      "symbol": "BHARTIARTL",
+      "date": "2020-04-07",
+      "check_id": "bad_tick_reversal",
+      "severity": "serious",
+      "detail": "Return was 6.7 sigma and reversed 5.1% next session."
+    },
+    {
+      "symbol": "NESTLEIND",
+      "date": "2024-01-05",
+      "check_id": "adjustment_gap",
+      "severity": "critical",
+      "detail": "Adjusted/raw ratio moved +900.0%; known 10:1 split."
+    },
+    {
+      "symbol": "ASIANPAINT",
+      "date": "2016-11-14",
+      "check_id": "missing_session",
+      "severity": "warning",
+      "detail": "No daily bar on an observed benchmark session."
+    }
+  ],
+  "severity_summary": [
+    {
+      "severity": "critical",
+      "count": 5
+    },
+    {
+      "severity": "serious",
+      "count": 4
+    },
+    {
+      "severity": "warning",
+      "count": 3
+    }
+  ],
+  "volatility": [
+    {
+      "year": 2024,
+      "symbol": "ADANIENT",
+      "annualized_volatility": 0.421
+    },
+    {
+      "year": 2024,
+      "symbol": "TATASTEEL",
+      "annualized_volatility": 0.319
+    },
+    {
+      "year": 2024,
+      "symbol": "INDIGO",
+      "annualized_volatility": 0.304
+    },
+    {
+      "year": 2024,
+      "symbol": "TRENT",
+      "annualized_volatility": 0.291
+    },
+    {
+      "year": 2024,
+      "symbol": "ADANIPORTS",
+      "annualized_volatility": 0.278
+    },
+    {
+      "year": 2024,
+      "symbol": "BEL",
+      "annualized_volatility": 0.265
+    },
+    {
+      "year": 2024,
+      "symbol": "HINDALCO",
+      "annualized_volatility": 0.254
+    },
+    {
+      "year": 2024,
+      "symbol": "ETERNAL",
+      "annualized_volatility": 0.249
+    },
+    {
+      "year": 2024,
+      "symbol": "BAJFINANCE",
+      "annualized_volatility": 0.238
+    },
+    {
+      "year": 2024,
+      "symbol": "SBIN",
+      "annualized_volatility": 0.229
+    },
+    {
+      "year": 2025,
+      "symbol": "ADANIENT",
+      "annualized_volatility": 0.386
+    },
+    {
+      "year": 2025,
+      "symbol": "INDIGO",
+      "annualized_volatility": 0.331
+    },
+    {
+      "year": 2025,
+      "symbol": "ETERNAL",
+      "annualized_volatility": 0.318
+    },
+    {
+      "year": 2025,
+      "symbol": "BEL",
+      "annualized_volatility": 0.297
+    },
+    {
+      "year": 2025,
+      "symbol": "TATASTEEL",
+      "annualized_volatility": 0.282
+    },
+    {
+      "year": 2025,
+      "symbol": "TRENT",
+      "annualized_volatility": 0.276
+    },
+    {
+      "year": 2025,
+      "symbol": "JIOFIN",
+      "annualized_volatility": 0.268
+    },
+    {
+      "year": 2025,
+      "symbol": "HINDALCO",
+      "annualized_volatility": 0.251
+    },
+    {
+      "year": 2025,
+      "symbol": "BAJFINANCE",
+      "annualized_volatility": 0.244
+    },
+    {
+      "year": 2025,
+      "symbol": "SHRIRAMFIN",
+      "annualized_volatility": 0.235
+    },
+    {
+      "year": 2026,
+      "symbol": "ETERNAL",
+      "annualized_volatility": 0.354
+    },
+    {
+      "year": 2026,
+      "symbol": "INDIGO",
+      "annualized_volatility": 0.326
+    },
+    {
+      "year": 2026,
+      "symbol": "ADANIENT",
+      "annualized_volatility": 0.311
+    },
+    {
+      "year": 2026,
+      "symbol": "BEL",
+      "annualized_volatility": 0.293
+    },
+    {
+      "year": 2026,
+      "symbol": "TMPV",
+      "annualized_volatility": 0.287
+    },
+    {
+      "year": 2026,
+      "symbol": "TATASTEEL",
+      "annualized_volatility": 0.271
+    },
+    {
+      "year": 2026,
+      "symbol": "TRENT",
+      "annualized_volatility": 0.264
+    },
+    {
+      "year": 2026,
+      "symbol": "HINDALCO",
+      "annualized_volatility": 0.252
+    },
+    {
+      "year": 2026,
+      "symbol": "JIOFIN",
+      "annualized_volatility": 0.248
+    },
+    {
+      "year": 2026,
+      "symbol": "SHRIRAMFIN",
+      "annualized_volatility": 0.239
+    }
+  ],
+  "coverage": [
+    {
+      "symbol": "RELIANCE",
+      "expected": 2862,
+      "observed": 2862,
+      "missing": 0
+    },
+    {
+      "symbol": "TCS",
+      "expected": 2862,
+      "observed": 2862,
+      "missing": 0
+    },
+    {
+      "symbol": "INFY",
+      "expected": 2862,
+      "observed": 2861,
+      "missing": 1
+    },
+    {
+      "symbol": "HDFCBANK",
+      "expected": 2862,
+      "observed": 2861,
+      "missing": 1
+    },
+    {
+      "symbol": "ICICIBANK",
+      "expected": 2862,
+      "observed": 2862,
+      "missing": 0
+    },
+    {
+      "symbol": "SBIN",
+      "expected": 2862,
+      "observed": 2862,
+      "missing": 0
+    },
+    {
+      "symbol": "MARUTI",
+      "expected": 2862,
+      "observed": 2861,
+      "missing": 1
+    },
+    {
+      "symbol": "TATASTEEL",
+      "expected": 2862,
+      "observed": 2862,
+      "missing": 0
+    }
+  ]
+}

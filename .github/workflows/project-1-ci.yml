@@ -1,0 +1,38 @@
+name: project-1-ci
+
+on:
+  push:
+    paths:
+      - "project-1-nse-data-lake/**"
+      - ".github/workflows/project-1-ci.yml"
+  pull_request:
+    paths:
+      - "project-1-nse-data-lake/**"
+      - ".github/workflows/project-1-ci.yml"
+  workflow_dispatch:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: project-1-nse-data-lake
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v6
+        with:
+          enable-cache: true
+      - run: uv sync --frozen --all-groups
+      - run: uv run ruff check .
+      - run: uv run pytest
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: npm
+          cache-dependency-path: project-1-nse-data-lake/site/package-lock.json
+      - run: npm ci
+        working-directory: project-1-nse-data-lake/site
+      - run: npm run build
+        working-directory: project-1-nse-data-lake/site
+        env:
+          OBSERVABLE_TELEMETRY_DISABLE: "true"
